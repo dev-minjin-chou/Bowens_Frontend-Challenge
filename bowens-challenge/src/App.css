@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.movie {
+  background-color: #fff;
+  border-radius: 3px;
+  margin: 1em;
+  width: 250px;
+}
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.movie img {
+  max-width: 100%;
+}
