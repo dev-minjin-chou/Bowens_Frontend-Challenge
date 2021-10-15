@@ -5,7 +5,28 @@
 body {
   background-color: #e0e0e052;
   font-family: "Quicksand", sans-serif;
+  color:rgb(80, 80, 80)
 }
+
+.movie-image {
+  display: block;
+  height: 200px;
+  background-image:linear-gradient(to bottom, rgba(112, 8, 86, 0.904), rgba(94, 57, 109, 0.89)), url("https://klbtheme.com/movify/wp-content/uploads/2018/04/movie-collection.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: "Quicksand", sans-serif;
+}
+
+.movie-title h1 {
+  
+  color: #fff;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  
+}
+
 
 .movie {
   background-color: #fff;
@@ -15,7 +36,6 @@ body {
   position: relative;
   margin: 1rem;
   width: 350px;
-  top: 0;
   transition: top ease 0.4s;
 }
 
@@ -35,7 +55,7 @@ body {
   grid-template-rows: auto;
   grid-gap: 16px;
   flex-wrap: wrap;
-  margin: 18rem;
+  margin: 8rem;
 }
 
 .info {
