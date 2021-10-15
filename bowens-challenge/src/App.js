@@ -16,7 +16,6 @@ function App() {
                                  });
 
   }, []);
-
   return (
     <div className="movie-container">
       {movies.length > 0 && movies.map((movie) => 
