@@ -17,7 +17,7 @@ Minjin Chou
 
 ## Basic webpage overview:
 <p align="center"> 
-    <img src="bowens-challenge/img/preview.png" alt="preview">
+    <img src="img/preview.png" alt="preview">
  </p>
 
 To run the application locally :
