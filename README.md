@@ -14,7 +14,7 @@ Minjin Chou
 
 ## Basic webpage overview:
 <p align="center"> 
-    <img src="img/imagepdf.png" alt="preview">
+    <img src="bowens-challenge/img/imagepdf.png" alt="preview">
  </p>
 
 To run the application locally :
