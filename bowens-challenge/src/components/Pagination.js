@@ -8,7 +8,7 @@ const Pagination = ({ moviesPerPage, totalMovies, paginate }) => {
   }
   return (
     <nav>
-      <ul className="pagination">
+      <ul className="pagination text-secondary justify-content-center pagination-lg">
         {pageNumbers.map((number) => (
           <li key={number} className="page-item">
             <a onClick={() => paginate(number)} href="/#" className="page-link">

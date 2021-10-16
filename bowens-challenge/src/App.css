@@ -31,6 +31,7 @@
 }
 
 .movie {
+  top: -110px;
   background-color: #fff;
   border-radius: 7px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0, 1);
@@ -42,7 +43,7 @@
 }
 
 .movie:hover {
-  top: -10px;
+  top: -120px;
 }
 
 .movie h2 {
@@ -112,6 +113,7 @@
 
 .website button {
   font-family: "Quicksand", sans-serif;
+  margin: 0.2rem;
   font-weight: 100;
   position: relative;
   background-color: #9352b3;
@@ -161,10 +163,6 @@
 }
 
 .filter-bar {
-  justify-content: center;
-  position: relative;
-  top: 50px;
-  left: 650px;
   padding-left: 16px;
   width: 300px;
   height: 50px;
@@ -172,4 +170,17 @@
   border: rgb(202, 202, 202);
   border-style: solid;
   border-width: thin;
+}
+
+.website form {
+  margin: 1rem;
+  display: block;
+  text-align: center;
+}
+
+.form1 {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
